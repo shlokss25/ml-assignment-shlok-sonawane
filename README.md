@@ -1,8 +1,8 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Project-green)
-#  Machine Learning Assessment — Assignment 4 (A + B)
+# Machine Learning Assessment — Assignment 4 (A + B)
 
-## Overview
+# Overview
 
 This repository contains solutions for **Assignment 4**, covering both technical machine learning implementation (**Part A**) and business case analysis (**Part B**).
 
@@ -36,9 +36,9 @@ ml-assessment-shlok-sonawane/
 
 -------
 
-#  Part A — Machine Learning Implementation
+# Part A — Machine Learning Implementation
 
-##  Q1: Supervised Learning — Heart Disease Prediction
+## Q1: Supervised Learning — Heart Disease Prediction
 
 * Built classification models to predict heart disease
 * Models used:
