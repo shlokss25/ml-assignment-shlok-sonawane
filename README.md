@@ -15,26 +15,26 @@ The assignment demonstrates end-to-end capabilities including:
 
 ---
 
-##  Repository Structure
+# Repository Structure
 
-```
+``````
 ml-assessment-shlok-sonawane/
 │
-├── part_a/
+├──|part_a|
 │   ├── q1_supervised.ipynb
 │   ├── q2_unsupervised.ipynb
 │   └── q3_feature_engineering.ipynb
 │
-├── part_b/
+├──|part_b|
 │   └── business_analysis.md
 │
-└── data/
-    ├── q1_heart_disease.csv
-    ├── q2_customers.csv
-    └── q3_retail_promotions.csv
-```
+└── |datasets|
+     ├── q1_heart_disease.csv
+     ├── q2_customers.csv
+     └── q3_retail_promotions.csv
+``````
 
----
+-------
 
 #  Part A — Machine Learning Implementation
 
@@ -53,7 +53,7 @@ ml-assessment-shlok-sonawane/
 * **Best Model:** Random Forest (highest F1-score)
 * Performed hyperparameter tuning using GridSearchCV
 
----
+------
 
 ##  Q2: Unsupervised Learning — Customer Segmentation
 
@@ -63,9 +63,9 @@ ml-assessment-shlok-sonawane/
 * Applied **PCA** for dimensionality reduction
 * Visualized clusters in 2D space
 
----
+------
 
-##  Q3: Feature Engineering & Regression Pipeline
+# Q3: Feature Engineering & Regression Pipeline
 
 * Built a **scikit-learn pipeline** for predicting `items_sold`
 * Performed:
@@ -78,14 +78,14 @@ ml-assessment-shlok-sonawane/
   * Linear Regression
   * Random Forest Regressor
 
-### Results:
+# Results:
 
 * **Linear Regression outperformed Random Forest**
 
   * RMSE: 39.64 vs 42.88
   * MAE: 29.30 vs 33.87
 
-### Key Drivers:
+# Key Drivers:
 
 * Day of week
 * Store size
@@ -93,15 +93,15 @@ ml-assessment-shlok-sonawane/
 * Competition density
 * Seasonal trends
 
----
+------
 
-#  Part B — Business Case Analysis
+# Part B — Business Case Analysis
 
-##  Scenario:
+# Scenario:
 
 Optimizing promotional strategies across 50 retail stores to maximize sales.
 
-##  Key Components:
+# Key Components:
 
 * Problem formulation as a regression task
 * Data strategy (multi-table joins & aggregation)
@@ -109,13 +109,13 @@ Optimizing promotional strategies across 50 retail stores to maximize sales.
 * Model evaluation using time-based splits
 * Deployment strategy with monitoring
 
-##  Insights:
+#  Insights:
 
 * Sales are influenced by both **business factors** and **temporal patterns**
 * Different store types require **customized strategies**
 * Proper target selection is critical for meaningful predictions
 
----
+------
 
 #  Technologies Used
 
@@ -124,7 +124,7 @@ Optimizing promotional strategies across 50 retail stores to maximize sales.
 * Scikit-learn
 * Matplotlib, Seaborn
 
----
+------
 
 #  Key Takeaways
 
@@ -133,9 +133,9 @@ Optimizing promotional strategies across 50 retail stores to maximize sales.
 * Value of combining technical models with business understanding
 * Real-world considerations like data leakage and deployment
 
----
+------
 
 #  Author
 
-**Shlok Sonawane bir_som_BA_2511721**
+**Shlok Sonawane bit_som_BA_2511721**
 Machine Learning & Data Analytics Enthusiast
