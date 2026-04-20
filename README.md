@@ -1,6 +1,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Project-green)
-# Machine Learning Assessment — Assignment 4 (A + B)
+# Machine Learning Assignment 4 (A + B)
 
 # Overview
 
